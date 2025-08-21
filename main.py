@@ -65,51 +65,6 @@ class Retrac:
         r = requests.get('https://fortnite-api.com/v2/cosmetics/br')
         return r.json()
 
-    def install_mitm_cert(self):
-        if os.name == "nt": 
-            cert_path = os.path.join(os.getenv('APPDATA'), 'mitmproxy', 'mitmproxy-ca-cert.cer')
-            
-            if not os.path.exists(cert_path):
-                print("MITM certificate not found. Please start mitmproxy first to generate the certificate.")
-                return False
-            
-            try:
-                temp_cert = os.path.join(os.environ['TEMP'], 'mitmproxy-ca-cert.cer')
-                shutil.copy2(cert_path, temp_cert)
-                
-                command = [
-                    'certutil', '-addstore', '-f', 'root', temp_cert
-                ]
-                
-                if os.system('net session >nul 2>&1') == 0:
-                    result = subprocess.run(command, capture_output=True, text=True)
-                else:
-                    import ctypes
-                    if ctypes.windll.shell32.IsUserAnAdmin():
-                        result = subprocess.run(command, capture_output=True, text=True)
-                    else:
-                        params = ' '.join(['"' + x + '"' for x in command])
-                        result = subprocess.run(
-                            f'powershell -Command "Start-Process cmd -ArgumentList \'/c {params}\' -Verb RunAs -Wait"',
-                            shell=True, capture_output=True, text=True
-                        )
-                
-                try:
-                    os.remove(temp_cert)
-                except:
-                    pass
-                    
-                if result.returncode == 0:
-                    print("MITM certificate successfully installed to Windows Trusted Root Store")
-                    return True
-                else:
-                    print(f"Failed to install certificate: {result.stderr}")
-                    return False
-                    
-            except Exception as e:
-                print(f"Error installing certificate: {e}")
-                return False
-        
 
 
     def clear(self):
@@ -675,6 +630,7 @@ if __name__ == "__main__":
     presence_thread.start()
     retrac.config_menu()
     asyncio.run(start())
+
 
 
 
