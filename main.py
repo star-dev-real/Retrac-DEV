@@ -601,7 +601,7 @@ async def start():
         m.addons.add(addon)
 
     print(f"Starting proxy with {len(Addons)} addon{'s' if len(Addons) != 1 else ''}...")
-    retrac.install_mitm_cert()
+
 
     try:
         await m.run()
@@ -630,6 +630,7 @@ if __name__ == "__main__":
     presence_thread.start()
     retrac.config_menu()
     asyncio.run(start())
+
 
 
 
