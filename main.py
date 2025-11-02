@@ -22,6 +22,9 @@ from pathlib import Path
 
 HERE = Path(__file__).parent  
 RETRAC = HERE / "retrac.json"
+CONTENT = HERE / "content.json"
+COMMON_CORE = HERE / "common_core.json"
+MOTD = HERE / "motd.json"
 
 
 init(autoreset=True)
@@ -99,6 +102,40 @@ class Proxy:
                 body,
                 {"Content-Type": "application/json"}
             )
+
+
+        if ("common_core" in url or "profileid=common_core" in url) and flow.request.method == "GET":
+            with COMMON_CORE.open("r", encoding="utf-8") as fh:
+                payload = json.load(fh)             
+            body = json.dumps(payload)             
+            flow.response = http.HTTPResponse.make(
+                200,
+                body,
+                {"Content-Type": "application/json"}
+            )
+
+        if ("content" in url or "contentpages" in url) and flow.request.method == "GET":
+            with CONTENT.open("r", encoding="utf-8") as fh:
+                payload = json.load(fh)             
+            body = json.dumps(payload)             
+            flow.response = http.HTTPResponse.make(
+                200,
+                body,
+                {"Content-Type": "application/json"}
+            )
+
+        if ("motd" in url or "motds" in url) and flow.request.method == "GET":
+            with MOTD.open("r", encoding="utf-8") as fh:
+                payload = json.load(fh)             
+            body = json.dumps(payload)             
+            flow.response = http.HTTPResponse.make(
+                200,
+                body,
+                {"Content-Type": "application/json"}
+            )
+
+        
+
 
 def is_certificate_installed():
     try:
