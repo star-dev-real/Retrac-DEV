@@ -1,0 +1,661 @@
+{
+    "battleroyalenewsv2": {
+        "alwaysShow": true,
+        "lastModified": "0000-00-00T00:00:00.000Z",
+        "news": {
+            "motds": []
+        }
+    },
+    "dynamicbackgrounds": {
+        "backgrounds": {
+            "backgrounds": [
+                {
+                    "key": "lobby",
+                    "stage": "summer"
+                },
+                {
+                    "key": "vault",
+                    "stage": "summer"
+                }
+            ]
+        },
+        "lastModified": "0000-00-00T00:00:00.000Z"
+    },
+    "emergencynotice": {
+        "_title": "emergencynotice",
+        "alwaysShow": true,
+        "lastModified": "0000-00-00T00:00:00.000Z",
+        "news": {
+            "_type": "Battle Royale News",
+            "messages": [
+                {
+                    "hidden": true,
+                    "_type": "CommonUI Simple Message Bas e",
+                    "title": "",
+                    "body": "",
+                    "spotlight": ""
+                }
+            ]
+        }
+    },
+    "lastModified": "0000-00-00T00:00:00.000Z",
+    "playlistinformation": {
+        "conversion_config": {
+            "containerName": "playlist_info",
+            "contentName": "playlists",
+            "enableReferences": true
+        },
+        "frontend_matchmaking_header_style": "Basic",
+        "frontend_matchmaking_header_text": "ECS Qualifiers",
+        "frontend_matchmaking_header_text_description": "Watch @ 3PM EST",
+        "is_tile_hidden": false,
+        "lastModified": "0000-00-00T00:00:00.000Z",
+        "playlist_info": {
+            "playlists": [
+                {
+                    "image": "https://retrac.site/static/real_squad.jpg",
+                    "playlist_name": "Playlist_DefaultSquad",
+                    "hidden": false
+                },
+                {
+                    "image": "https://retrac.site/static/real_squad.jpg",
+                    "playlist_name": "Playlist_Retrac_1v1",
+                    "hidden": false
+                },
+                {
+                    "image": "https://retrac.site/static/real_duo.jpg",
+                    "playlist_name": "Playlist_DefaultDuo",
+                    "hidden": false
+                },
+                {
+                    "image": "https://convicts.us/Blitz_Gamemode_News_Tab.png",
+                    "playlist_name": "Playlist_Blitz_Duos",
+                    "hidden": false
+                },
+                {
+                    "image": "https://retrac.site/static/real_solo.jpg",
+                    "playlist_name": "Playlist_DefaultSolo",
+                    "hidden": false
+                },
+                {
+                    "image": "https://retrac.site/static/real_arena_solo.jpg",
+                    "playlist_name": "Playlist_ShowdownAlt_Trios",
+                    "hidden": false
+                },
+                {
+                    "image": "https://retrac.site/static/real_arena_duo.jpg",
+                    "playlist_name": "Playlist_ShowdownAlt_Duo",
+                    "hidden": false
+                },
+                {
+                    "image": "https://retrac.site/static/lategame_solo.png",
+                    "playlist_name": "Playlist_Vamp_Solo",
+                    "hidden": false
+                },
+                {
+                    "image": "https://cdn.0xkaede.xyz/static/lategame_duos.png",
+                    "playlist_name": "Playlist_Vamp_Duo",
+                    "violator": "LIMITED TIME!",
+                    "hidden": false
+                },
+                {
+                    "image": "https://retrac.site/static/oneshot.jpg",
+                    "playlist_name": "Playlist_Low_Solo",
+                    "hidden": false
+                },
+                {
+                    "image": "https://retrac.site/static/oneshot.jpg",
+                    "playlist_name": "Playlist_Low_Duos",
+                    "hidden": false
+                },
+                {
+                    "image": "https://retrac.site/static/oneshot.jpg",
+                    "playlist_name": "Playlist_Low_Squads",
+                    "hidden": false
+                },
+                {
+                    "image": "https://cdn2.unrealengine.com/14br-gungame-motd-1920x1080-1920x1080-504045072.png",
+                    "playlist_name": "Playlist_Gungame_Reverse",
+                    "hidden": false
+                },
+                {
+                    "image": "https://cdn2.unrealengine.com/14br-fortnitemares-solo-1024x512-326832464.jpg",
+                    "playlist_name": "Playlist_ArsenicCore_Solo_MaxFog",
+                    "hidden": false
+                },
+                {
+                    "image": "https://cdn2.unrealengine.com/14br-fortnitemares-duos-1024x512-326842571.jpg",
+                    "playlist_name": "Playlist_ArsenicCore_Duos_MaxFog",
+                    "hidden": false
+                },
+                {
+                    "image": "https://cdn2.unrealengine.com/14br-fortnitemares-squad-1024x512-326850231.jpg",
+                    "playlist_name": "Playlist_ArsenicCore_Squads_MaxFog",
+                    "hidden": false
+                },
+                {
+                    "image": "https://cdn2.unrealengine.com/11br-battlelabs-motd-1920x1080-1920x1080-a39ad0545dba.jpg",
+                    "playlist_name": "Playlist_BattleLab",
+                    "hidden": false
+                }
+            ]
+        },
+        "show_ad_violator": false
+    },
+    "shopSections": {
+        "lastModified": "0000-00-00T00:00:00.000Z",
+        "sectionList": {
+            "sections": [
+                {
+                    "_type": "ShopSection",
+                    "bEnableToastNotification": true,
+                    "bHidden": false,
+                    "bShowIneligibleOffers": true,
+                    "bShowIneligibleOffersIfGiftable": true,
+                    "bShowTimer": true,
+                    "bSortOffersByOwnership": false,
+                    "background": {
+                        "_type": "DynamicBackground",
+                        "key": "vault",
+                        "stage": "default"
+                    },
+                    "landingPriority": 3,
+                    "sectionDisplayName": "Thanks for playing Retrac!",
+                    "sectionId": "Retrac"
+                },
+                {
+                    "_type": "ShopSection",
+                    "bEnableToastNotification": true,
+                    "bHidden": false,
+                    "bShowIneligibleOffers": true,
+                    "bShowIneligibleOffersIfGiftable": true,
+                    "bShowTimer": true,
+                    "bSortOffersByOwnership": false,
+                    "background": {
+                        "_type": "DynamicBackground",
+                        "key": "vault",
+                        "stage": "default"
+                    },
+                    "landingPriority": 2,
+                    "sectionDisplayName": "Featured",
+                    "sectionId": "Weekly"
+                },
+                {
+                    "_type": "ShopSection",
+                    "bEnableToastNotification": true,
+                    "bHidden": false,
+                    "bShowIneligibleOffers": true,
+                    "bShowIneligibleOffersIfGiftable": true,
+                    "bShowTimer": true,
+                    "bSortOffersByOwnership": false,
+                    "background": {
+                        "_type": "DynamicBackground",
+                        "key": "vault",
+                        "stage": "default"
+                    },
+                    "landingPriority": 1,
+                    "sectionDisplayName": "Daily",
+                    "sectionId": "Daily"
+                },
+                {
+                    "_type": "ShopSection",
+                    "bEnableToastNotification": true,
+                    "bHidden": false,
+                    "bShowIneligibleOffers": false,
+                    "bShowIneligibleOffersIfGiftable": false,
+                    "bShowTimer": false,
+                    "bSortOffersByOwnership": false,
+                    "background": {
+                        "_type": "DynamicBackground",
+                        "key": "vault",
+                        "stage": "default"
+                    },
+                    "landingPriority": 0,
+                    "sectionDisplayName": "Battle Pass",
+                    "sectionId": "BattlePass"
+                }
+            ]
+        }
+    },
+    "subgameselectdata": {
+        "battleRoyale": {
+            "message": {
+                "body": "100 Player PvP Battle Royale.\n\nPvE progress does not affect Battle Royale.",
+                "hidden": true,
+                "image": "https://retrac.0xkaede.xyz/static/loading_br.png",
+                "messagetype": "normal",
+                "spotlight": false,
+                "title": "100 Player PvP"
+            }
+        },
+        "creative": {
+            "message": {
+                "body": "Your Island. Your Friends. Your Rules.\n\nDiscover new ways to play Fortnite, play community made games with friends and build your dream island.",
+                "hidden": true,
+                "messagetype": "normal",
+                "spotlight": false,
+                "title": "New Featured Islands!"
+            }
+        },
+        "lastModified": "0000-00-00T00:00:00.000Z",
+        "saveTheWorld": {
+            "message": {
+                "body": "Cooperative PvE storm-fighting adventure!",
+                "hidden": true,
+                "image": "https://retrac.0xkaede.xyz/static/loading_stw.png",
+                "messagetype": "normal",
+                "spotlight": false,
+                "title": "Co-op PvE"
+            }
+        },
+        "saveTheWorldUnowned": {
+            "message": {
+                "body": "Cooperative PvE storm-fighting adventure!",
+                "hidden": true,
+                "image": "https://retrac.0xkaede.xyz/static/loading_stw.png",
+                "messagetype": "normal",
+                "spotlight": false,
+                "title": "Co-op PvE"
+            }
+        }
+    },
+    "tournamentinformation": {
+        "lastModified": "0000-00-00T00:00:00.000Z",
+        "tournament_info": {
+            "tournaments": [
+                {
+                    "tournament_display_id": "ARENA_DUOS",
+                    "title_line_1": "",
+                    "title_line_2": "ARENA",
+                    "schedule_info": "",
+                    "poster_front_image": "",
+                    "poster_back_image": "",
+                    "flavor_description": "",
+                    "details_description": "",
+                    "short_format_title": "",
+                    "long_format_title": "",
+                    "background_title": "",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "",
+                    "base_color": "",
+                    "primary_color": "",
+                    "secondary_color": "",
+                    "highlight_color": "",
+                    "title_color": "",
+                    "shadow_color": "",
+                    "background_left_color": "",
+                    "background_right_color": "",
+                    "background_text_color": "",
+                    "poster_fade_color": "",
+                    "playlist_tile_image": "https://retrac.site/static/real_arena_duo.jpg",
+                    "loading_screen_image": "",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "ARENA_SOLO",
+                    "title_line_1": "",
+                    "title_line_2": "ARENA",
+                    "schedule_info": "",
+                    "poster_front_image": "",
+                    "poster_back_image": "",
+                    "flavor_description": "",
+                    "details_description": "",
+                    "short_format_title": "",
+                    "long_format_title": "",
+                    "background_title": "",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "",
+                    "base_color": "",
+                    "primary_color": "",
+                    "secondary_color": "",
+                    "highlight_color": "",
+                    "title_color": "",
+                    "shadow_color": "",
+                    "background_left_color": "",
+                    "background_right_color": "",
+                    "background_text_color": "",
+                    "poster_fade_color": "",
+                    "playlist_tile_image": "https://retrac.site/static/real_arena_solo.jpg",
+                    "loading_screen_image": "",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "LG_ARENA_TRIOS",
+                    "title_line_1": "",
+                    "title_line_2": "LATEGAME ARENA",
+                    "schedule_info": "",
+                    "poster_front_image": "",
+                    "poster_back_image": "",
+                    "flavor_description": "",
+                    "details_description": "",
+                    "short_format_title": "",
+                    "long_format_title": "",
+                    "background_title": "",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "",
+                    "base_color": "",
+                    "primary_color": "",
+                    "secondary_color": "",
+                    "highlight_color": "",
+                    "title_color": "",
+                    "shadow_color": "",
+                    "background_left_color": "",
+                    "background_right_color": "",
+                    "background_text_color": "",
+                    "poster_fade_color": "",
+                    "playlist_tile_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournaments/Season-X/10BR_InGame_CashCup_ModeTile_Champ_Trios-1024x512-c554b964050e5b380a53bab6980bdee9938b9838.jpg",
+                    "loading_screen_image": "",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "LG_ARENA_DUOS",
+                    "title_line_1": "",
+                    "title_line_2": "PINCERA'S LATEGAME",
+                    "schedule_info": "",
+                    "poster_front_image": "",
+                    "poster_back_image": "",
+                    "flavor_description": "",
+                    "details_description": "",
+                    "short_format_title": "",
+                    "long_format_title": "",
+                    "background_title": "",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "",
+                    "base_color": "",
+                    "primary_color": "",
+                    "secondary_color": "",
+                    "highlight_color": "",
+                    "title_color": "",
+                    "shadow_color": "",
+                    "background_left_color": "",
+                    "background_right_color": "",
+                    "background_text_color": "",
+                    "poster_fade_color": "",
+                    "playlist_tile_image": "https://wallpapercave.com/wp/wp12980206.jpeg",
+                    "loading_screen_image": "",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "LG_ARENA_Squads",
+                    "title_line_1": "",
+                    "title_line_2": "GHOSTFACE'S SQUADS LATEGAME",
+                    "schedule_info": "",
+                    "poster_front_image": "",
+                    "poster_back_image": "",
+                    "flavor_description": "",
+                    "details_description": "",
+                    "short_format_title": "",
+                    "long_format_title": "",
+                    "background_title": "",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "",
+                    "base_color": "",
+                    "primary_color": "",
+                    "secondary_color": "",
+                    "highlight_color": "",
+                    "title_color": "",
+                    "shadow_color": "",
+                    "background_left_color": "",
+                    "background_right_color": "",
+                    "background_text_color": "",
+                    "poster_fade_color": "",
+                    "playlist_tile_image": "https://cdn.atmos.chat/Untitled_1.png",
+                    "loading_screen_image": "",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "LG_ARENA_Solo",
+                    "title_line_1": "",
+                    "title_line_2": "LATEGAME ARENA",
+                    "schedule_info": "",
+                    "poster_front_image": "",
+                    "poster_back_image": "",
+                    "flavor_description": "",
+                    "details_description": "",
+                    "short_format_title": "",
+                    "long_format_title": "",
+                    "background_title": "",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "",
+                    "base_color": "",
+                    "primary_color": "",
+                    "secondary_color": "",
+                    "highlight_color": "",
+                    "title_color": "",
+                    "shadow_color": "",
+                    "background_left_color": "",
+                    "background_right_color": "",
+                    "background_text_color": "",
+                    "poster_fade_color": "",
+                    "playlist_tile_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/11BR_InGame_FNF_Spots_ModeTile-1024x512-d06e42e1c3faf207c210220fd1a7eee372dfd5ba.jpg",
+                    "loading_screen_image": "",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "tournament_testcup1",
+                    "title_line_1": "RETRAC LG",
+                    "title_line_2": "TEST CUP",
+                    "schedule_info": "",
+                    "poster_front_image": "https://cdn.0xkaede.xyz/static/tournament_cashcup2_posterfront.jpg",
+                    "poster_back_image": "https://cdn.0xkaede.xyz/static/tournament_cashcup2_posterback.jpg",
+                    "flavor_description": "Prove yourself!",
+                    "details_description": "This tournament is a test for future tournaments!",
+                    "short_format_title": "TEST CUP",
+                    "long_format_title": "Retrac's First Tournament!",
+                    "background_title": "background title asdasd asdasd asd",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "Winner!",
+                    "base_color": "16D5FF",
+                    "primary_color": "17D6FF",
+                    "secondary_color": "031E6B",
+                    "highlight_color": "16D5FF",
+                    "title_color": "FFFFFF",
+                    "shadow_color": "9DE2F2",
+                    "background_left_color": "17D6FF",
+                    "background_right_color": "FD2ED8",
+                    "background_text_color": "010D2F",
+                    "poster_fade_color": "F75EDC",
+                    "playlist_tile_image": "https://cdn.0xkaede.xyz/static/tournament_cashcup2_modetile.jpg",
+                    "loading_screen_image": "https://cdn.0xkaede.xyz/static/tournament_cashcup2_modetile.jpg",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "tournament_testcup2",
+                    "title_line_1": "DUO V-BUCK",
+                    "title_line_2": "LG CUP",
+                    "schedule_info": "Twice A Week!",
+                    "poster_front_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week3-poster-front-750x1080-097515678.jpg",
+                    "poster_back_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-poster-back-all-750x1080-088996393.jpg",
+                    "flavor_description": "Prove yourself!",
+                    "details_description": "Work together with a partner to conquer the lobby! Total prize pool of 50,000 V-Bucks!",
+                    "short_format_title": "DUO LATEGAME TOURNAMENT",
+                    "long_format_title": "DUO CUP",
+                    "background_title": "50,000 V-BUCKS UP FOR GRABS\nCLAIM WHILE CHANCE LASTS",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "Winner!",
+                    "base_color": "FFFFFF",
+                    "primary_color": "e461ff",
+                    "secondary_color": "3f00f2",
+                    "highlight_color": "511381",
+                    "title_color": "ffffff",
+                    "shadow_color": "660073",
+                    "background_left_color": "fb0aff",
+                    "background_right_color": "233576",
+                    "background_text_color": "100095",
+                    "poster_fade_color": "2f006a",
+                    "playlist_tile_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week3-modetile-1024x512-097528772.jpg",
+                    "loading_screen_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week3-modetile-1024x512-097528772.jpg",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "tournament_testcup3",
+                    "title_line_1": "SOLO V-BUCKS",
+                    "title_line_2": "LG CUP",
+                    "schedule_info": "Every Monday!",
+                    "poster_front_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/12BR_Competitive_In-Game_CashCup_Xbox_PS_Poster_Front-750x1080-7d5132640d4b6acf064466ec827d8d2ff9a4da3f.jpg",
+                    "poster_back_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/12BR_Competitive_In-Game_CashCup_Xbox_PS_Poster_Back-750x1080-73ad63a5c91ef46501d4c66c496978cc4e6a8a48.jpg",
+                    "flavor_description": "SHOW OFF IN THIS FAST PACED MODE",
+                    "details_description": "Compete every week for a chance to win thousands of V-Bucks!",
+                    "short_format_title": "SOLO LATEGAME TOURNAMENT",
+                    "long_format_title": "SOLO LATEGAME CUP",
+                    "background_title": "Compete against others \nin Lategame\n",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "Winner!",
+                    "base_color": "FFFFFF",
+                    "primary_color": "ffffff",
+                    "secondary_color": "1f34a6",
+                    "highlight_color": "085a1c",
+                    "title_color": "ffffff",
+                    "shadow_color": "1f34a6",
+                    "background_left_color": "0f1599",
+                    "background_right_color": "0ae06c",
+                    "background_text_color": "ffffff",
+                    "poster_fade_color": "005b6b",
+                    "playlist_tile_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/12BR_Competitive_In-Game_CashCup_Xbox_PS_ModeTile-1024x512-89a9551a7eadc187b77351500cc61290132e2e8e.jpg",
+                    "loading_screen_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/12BR_Competitive_In-Game_CashCup_Xbox_PS_ModeTile-1024x512-89a9551a7eadc187b77351500cc61290132e2e8e.jpg",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "tournament_testcup5",
+                    "title_line_1": "SOLO V-BUCKS",
+                    "title_line_2": "TEST CUP",
+                    "schedule_info": "",
+                    "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-evergreen-blue-poster-front-750x1080-259819676.jpg",
+                    "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-evergreen-blue-poster-back-750x1080-259845254.jpg",
+                    "flavor_description": "SHOW OFF IN THIS FAST PACED MODE",
+                    "details_description": "Compete for a chance to win thousands of V-Bucks!",
+                    "short_format_title": "SOLO LATEGAME TOURNAMENT",
+                    "long_format_title": "SOLO TEST CUP",
+                    "background_title": "Compete against others \nin Lategame\n",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "Winner!",
+                    "base_color": "ffffff",
+                    "primary_color": "ffffff",
+                    "secondary_color": "191a91",
+                    "highlight_color": "49b8ff",
+                    "title_color": "ffffff",
+                    "shadow_color": "98a7ff",
+                    "background_left_color": "38fff9",
+                    "background_right_color": "669eff",
+                    "background_text_color": "ffffff",
+                    "poster_fade_color": "a5d0fc",
+                    "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-evergreen-blue-modetile-1024x512-259854035.jpg",
+                    "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-evergreen-blue-modetile-1024x512-259854035.jpg",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "tournament_testcup6",
+                    "title_line_1": "DUO V-BUCKS",
+                    "title_line_2": "TEST CUP",
+                    "schedule_info": "",
+                    "poster_front_image": "https://cdn2.unrealengine.com/14br-competitive-in-game-hypenite-poster-front-750x1080-975101774.jpg",
+                    "poster_back_image": "https://cdn2.unrealengine.com/14br-competitive-in-game-hypenite-modetile-1024x512-975101170.jpg",
+                    "flavor_description": "SHOW OFF IN THIS FAST PACED MODE",
+                    "details_description": "Compete for a chance to win thousands of V-Bucks!",
+                    "short_format_title": "DUO LATEGAME TOURNAMENT",
+                    "long_format_title": "DUO TEST CUP",
+                    "background_title": "Compete against others \nin Lategame\n",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "Winner!",
+                    "base_color": "ffffff",
+                    "primary_color": "ffffff",
+                    "secondary_color": "191a91",
+                    "highlight_color": "4affe4",
+                    "title_color": "ffffff",
+                    "shadow_color": "98a7ff",
+                    "background_left_color": "38ff8e",
+                    "background_right_color": "c131ae",
+                    "background_text_color": "ffffff",
+                    "poster_fade_color": "a4fcf7",
+                    "playlist_tile_image": "https://cdn2.unrealengine.com/14br-competitive-in-game-hypenite-modetile-1024x512-975101170.jpg",
+                    "loading_screen_image": "https://cdn2.unrealengine.com/14br-competitive-in-game-hypenite-modetile-1024x512-975101170.jpg",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "tournament_testcup4",
+                    "title_line_1": "SUNDAY ADDAMS",
+                    "title_line_2": "SKIN CUP",
+                    "schedule_info": "",
+                    "poster_front_image": "https://i.ibb.co/xKsnz2C4/wednesdayposteroutline.png",
+                    "poster_back_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournaments/Season-X/10BR_Competitive_InGame_ChampionSeries_Posters_Back-750x1080-096917f191c32d1e0e1e49ba11e2e122bee2adbe.jpg",
+                    "flavor_description": "",
+                    "details_description": "Compete in an intense duo lategame Fortnite tournament for a chance to win V-Bucks and the Move Your Hands emote. Place at the top of your region to win the Wednesday Addams Skin!",
+                    "short_format_title": "DUOS TOURNAMENT",
+                    "long_format_title": "DUOS Lategame SKIN CUP",
+                    "background_title": "",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "Winner!",
+                    "base_color": "FFFFFF",
+                    "primary_color": "ffffff",
+                    "secondary_color": "302b41",
+                    "highlight_color": "7b7b7b",
+                    "title_color": "ffffff",
+                    "shadow_color": "777780",
+                    "background_left_color": "6d829d",
+                    "background_right_color": "7f898a",
+                    "background_text_color": "a3a3a3",
+                    "poster_fade_color": "4e4a60",
+                    "playlist_tile_image": "https://www.hotspawn.com/wp-content/uploads/2025/10/Wednesday-Addams-Haunted-Cup-1125x633.jpg",
+                    "loading_screen_image": "https://www.hotspawn.com/wp-content/uploads/2025/10/Wednesday-Addams-Haunted-Cup-1125x633.jpg",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "tournament_lategame_solo",
+                    "title_line_1": "CHIPPY",
+                    "title_line_2": "TEST CUP",
+                    "schedule_info": "",
+                    "poster_front_image": "https://cdn2.unrealengine.com/13br-in-game-competitive-fncs-week2-poster-front-750x1080-491880123.jpg",
+                    "poster_back_image": "https://cdn2.unrealengine.com/13br-in-game-competitive-fncs-poster-back-all-750x1080-491879898.jpg",
+                    "flavor_description": "",
+                    "details_description": "This is a test cup. You will not win a prize.",
+                    "short_format_title": "CHIPPY TEST",
+                    "long_format_title": "SOLO CUP",
+                    "background_title": "Compete against \nothers in \nLategame\n",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "Winner!",
+                    "base_color": "FFFFFF",
+                    "primary_color": "ffffff",
+                    "secondary_color": "052f00",
+                    "highlight_color": "1f6406",
+                    "title_color": "ffffff",
+                    "shadow_color": "33780e",
+                    "background_left_color": "0e2500",
+                    "background_right_color": "00c2ff",
+                    "background_text_color": "a3a3a3",
+                    "poster_fade_color": "114304",
+                    "playlist_tile_image": "https://cdn2.unrealengine.com/13br-in-game-competitive-fncs-week2-modetile-1024x512-491879374.jpg",
+                    "loading_screen_image": "https://cdn2.unrealengine.com/13br-in-game-competitive-fncs-week2-modetile-1024x512-491879374.jpg",
+                    "style_info_id": ""
+                },
+                {
+                    "tournament_display_id": "only_kills",
+                    "title_line_1": "KILLS ONLY",
+                    "title_line_2": "TEST CUP",
+                    "schedule_info": "",
+                    "poster_front_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-finals-poster-front-750x1080-088996367.jpg",
+                    "poster_back_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-poster-back-all-750x1080-088996393.jpg",
+                    "flavor_description": "",
+                    "details_description": "This is a test cup. You will not win a prize.",
+                    "short_format_title": "KILLS ONLY",
+                    "long_format_title": "SOLO CUP",
+                    "background_title": "",
+                    "pin_score_requirement": 0,
+                    "pin_earned_text": "Winner!",
+                    "base_color": "FFFFFF",
+                    "primary_color": "ffffff",
+                    "secondary_color": "2a002e",
+                    "highlight_color": "63065a",
+                    "title_color": "ffffff",
+                    "shadow_color": "780e61",
+                    "background_left_color": "200026",
+                    "background_right_color": "ff00c7",
+                    "background_text_color": "a3a3a3",
+                    "poster_fade_color": "410442",
+                    "playlist_tile_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-finals-modetile-1024x512-088996529.jpg",
+                    "loading_screen_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-finals-modetile-1024x512-088996529.jpg",
+                    "style_info_id": ""
+                }
+            ]
+        }
+    }
+}
